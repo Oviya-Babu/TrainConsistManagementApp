@@ -62,8 +62,8 @@ public class UseCase9TrainConsistMgmtTest {
     void testGrouping_GroupSizeValidation() {
         List<UseCase9TrainConsistMgmt.Bogie> list = new ArrayList<>();
 
-        list.add(new UseCase9TrainConsistMgmt.Bogie("AC Chair", 56));
-        list.add(new UseCase9TrainConsistMgmt.Bogie("AC Chair", 60));
+        list.add(new UseCase9TrainConsistMgmt.Bogie("AC CHAIR", 56));
+        list.add(new UseCase9TrainConsistMgmt.Bogie("AC CHAIR", 60));
 
         Map<String, List<UseCase9TrainConsistMgmt.Bogie>> result =
                 UseCase9TrainConsistMgmt.groupBogiesByType(list);
@@ -78,6 +78,9 @@ public class UseCase9TrainConsistMgmtTest {
         list.add(new UseCase9TrainConsistMgmt.Bogie("Sleeper", 72));
 
         UseCase9TrainConsistMgmt.groupBogiesByType(list);
+
+
+
 
         // Original list should still have same size
         assertEquals(1, list.size());
