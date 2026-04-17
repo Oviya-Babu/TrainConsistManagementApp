@@ -332,7 +332,7 @@ javac UseCase20TrainConsistMgmt.java
 ### 👩‍💻 Author
 
 **Oviya Babu**  
-B.Tech – Computer Science Engineering  
+B.Tech – Computer Science Engineering - Cybersecurity
 SRM Institute of Science and Technology  
 
 ---
